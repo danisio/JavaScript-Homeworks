@@ -14,17 +14,3 @@ body .js-console {
   overflow-y: scroll;
   word-break: break-all;
 }
-body .js-console > p {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: block;
-}
-body .js-console > p > span {
-  margin: 0;
-  padding: 0;
-}
-body .js-console > p > br {
-  display: inline-block;
-  margin-bottom: 5px;
-}
