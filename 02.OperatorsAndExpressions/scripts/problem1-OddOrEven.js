@@ -1,7 +1,7 @@
 ﻿// Write an expression that checks if given integer is odd or even.
 
 function result(number) {
-    if (number % 2 == 0) {
+    if (number % 2 === 0) {
         return false;
     }
     else {

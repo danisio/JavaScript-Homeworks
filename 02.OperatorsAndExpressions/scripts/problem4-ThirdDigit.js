@@ -1,7 +1,7 @@
 ﻿// Write an expression that checks for given integer if its third digit (right-to-left) is 7.
 
 function result(number) {
-    var check = Math.floor(number / 100) % 10 == 7;
+    var check = Math.floor(number / 100) % 10 === 7;
     return check;
 }
 

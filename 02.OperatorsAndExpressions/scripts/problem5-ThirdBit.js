@@ -10,7 +10,7 @@ function result(number) {
     return check;
 }
 
-jsConsole.writeLine('| n | bit #3 | binary representation |')
+jsConsole.writeLine('| n  | bit #3 | binary representation |')
 jsConsole.writeLine('| 5  | ' + result(5) + ' | ' + 5..toString(2) + ' |');
 jsConsole.writeLine('| 8  | ' + result(8) + ' | ' + 8..toString(2) + ' |');
 jsConsole.writeLine('| 0  | ' + result(0) + ' | ' + 0..toString(2) + ' |');
